@@ -9,7 +9,7 @@ Probado con **Urban VPN** (extensión de Chrome) que prueba la fuga confirmada.
 
 ## ¿Cómo funciona?
 
-Los navegadores usan WebRTC para comunicaciones en tiempo real (videollamadas, etc.).  
+Los navegadores usan WebRTC para comunicaciones en tiempo real.  
 Para establecer conexiones, WebRTC hace peticiones STUN que revelan la IP pública real del dispositivo,**ignorando el proxy de la extensión VPN**.
 
 ---
@@ -34,9 +34,9 @@ Copia todo el contenido de [`script.js`], pégalo en la consola y presiona `Ente
 ### 5. Interpreta el resultado
 
 
-| 🔴 **PELIGRO FUGA DETECTADA** + IP visible | Tu VPN **no protege** contra WebRTC leak 
+🔴 **PELIGRO FUGA DETECTADA** + IP visible. Tu VPN **no protege** contra WebRTC leak 
 
-| 🟢 **SEGURO**  Tráfico bloqueado | Tu VPN bloquea WebRTC correctamente 
+🟢 **SEGURO**  Tráfico bloqueado. Tu VPN bloquea WebRTC correctamente 
 
 ---
 
@@ -44,9 +44,9 @@ Copia todo el contenido de [`script.js`], pégalo en la consola y presiona `Ente
 
 Si el script detectó una fuga, tienes estas opciones:
 
-- Deshabilitar WebRTC en el navegador  en Firefox: `about:config` → `media.peerconnection.enabled` → `false`
-- Usar una extensión anti-leak como *WebRTC Leak Prevent* o *uBlock Origin* (con la opción WebRTC activada)
-- Cambiar a una VPN de escritorio (aplicación completa, no extensión)  estas sí enrutan todo el tráfico del sistema
+- Deshabilitar WebRTC en el navegador.En n Firefox: nos dirigimos a`about:config`,luego  `media.peerconnection.enabled` y por ultimo `false`.
+- Usar una extensión anti-leak como *WebRTC Leak Prevent* o *uBlock Origin* (con la opción WebRTC activada).
+- Cambiar a una VPN de escritorio (aplicación completa, no extensión)  estas sí enrutan todo el tráfico del sistema.
 
 ---
 
