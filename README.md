@@ -1,7 +1,7 @@
-# WebRTC STUN — Auditoría de Fuga de IP Real
+# WebRTC STUN - Auditoría de Fuga de IP Real
 
-Herramienta de auditoría que detecta si tu **extensión VPN** filtra tu IP real a través del protocolo WebRTC.  
-Muchas VPN de navegador **no bloquean WebRTC**, lo que expone tu IP verdadera aunque creas estar protegido.
+Herramienta de auditoría que detecta si tu *extensión VPN filtra tu IP real a través del protocolo WebRTC.  
+Muchas VPN de navegador no bloquean WebRTC, lo que expone tu IP verdadera aunque creas estar protegido.
 
 Probado con **Urban VPN** (extensión de Chrome) que prueba la fuga confirmada.
 
@@ -34,9 +34,9 @@ Copia todo el contenido de [`script.js`], pégalo en la consola y presiona `Ente
 ### 5. Interpreta el resultado
 
 
-🔴 **PELIGRO FUGA DETECTADA** + IP visible. Tu VPN **no protege** contra WebRTC leak 
+🔴 **PELIGRO FUGA DETECTADA** + IP visible. Tu VPN **no protege** contra WebRTC leak. 
 
-🟢 **SEGURO**  Tráfico bloqueado. Tu VPN bloquea WebRTC correctamente 
+🟢 **SEGURO**  Tráfico bloqueado. Tu VPN bloquea WebRTC correctamente.
 
 ---
 
