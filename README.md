@@ -29,7 +29,7 @@ Anota la IP que aparece debería ser la IP del servidor VPN, no la tuya.
 Presiona `F12` o `Ctrl + Shift + I` y luego  ve a la pestaña "Console".
 
 ### 4. Pega y ejecuta el script
-Copia todo el contenido de [`script.js`], pégalo en la consola y presiona `Enter`.
+Copia todo el contenido de `script.js`, pégalo en la consola y presiona `Enter`.
 
 ### 5. Interpreta el resultado
 
@@ -44,7 +44,7 @@ Copia todo el contenido de [`script.js`], pégalo en la consola y presiona `Ente
 
 Si el script detectó una fuga, tienes estas opciones:
 
-- Deshabilitar WebRTC en el navegador.En n Firefox: nos dirigimos a`about:config`,luego  `media.peerconnection.enabled` y por ultimo `false`.
+- Deshabilitar WebRTC en el navegador.En Firefox: nos dirigimos a`about:config`,luego  `media.peerconnection.enabled` y por ultimo `false`.
 - Usar una extensión anti-leak como *WebRTC Leak Prevent* o *uBlock Origin* (con la opción WebRTC activada).
 - Cambiar a una VPN de escritorio (aplicación completa, no extensión)  estas sí enrutan todo el tráfico del sistema.
 
